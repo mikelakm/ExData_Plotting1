@@ -14,8 +14,8 @@ Using the resulting data set, four R scripts were created, namely plot1.R, plot2
 
 The project includes the following files:
 
-    'README.md'
+    * 'README.md'
 
-    'plot1.png', 'plot2.png', 'plot3.png', 'plot4.png': the produced plots
+    * 'plot1.png', 'plot2.png', 'plot3.png', 'plot4.png': the produced plots
 
-    'plot1.R', 'plot2.R', 'plot3.R', 'plot4.R': the R scripts used to produce the above plots (the scripts assume that file 'household_power_consumption.txt' is has been manually downloaded and is available in the working directory)
+    * 'plot1.R', 'plot2.R', 'plot3.R', 'plot4.R': the R scripts used to produce the above plots (the scripts assume that file 'household_power_consumption.txt' is has been manually downloaded and is available in the working directory)
