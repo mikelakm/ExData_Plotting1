@@ -8,7 +8,7 @@ data$DateTime <- strptime(data$DateTime, "%d/%m/%Y %H:%M:%S")	# Convert DateTime
 seldata <- data[data$Date>="2007-02-01" & data$Date<="2007-02-02", ]	# Select dates between 2007-02-01 and 2007-02-02
 
 # create plot1.png
-png(file="plot1.png", width=480, height=480)	# Open pdf device
+png(file="plot1.png", width=480, height=480)	# Open png device
 par(bg="transparent")
 hist(seldata$Global_active_power, main="Global Active Power", xlab="Global Active Power (kilowatts)", col="red")
 dev.off()	# Close png device
